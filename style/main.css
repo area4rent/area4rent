@@ -1,7 +1,11 @@
 @font-face {
-  font-family: CircularStd;
-  src: url("../images/fonts/CircularStd.otf") format("opentype");
-}
+  font-family: 'Product Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Regular'), url('./ProductSans-Regular.woff') format('woff');
+  }
+
+
 .slide-img-new{
 	height:480px;
 }
@@ -20,6 +24,7 @@
 
 .cus-field-styl{
   border-radius: 10px;
+  height: 50px;
 }
 
 .cus_log_des{
@@ -40,6 +45,22 @@
 
 /* Responsive */
 @media (max-width: 769px){
+
+  .frame_video {
+    border-radius: 30px;
+    height: 224px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+  .height_mob{
+
+    height: 303px!important;
+  }
+
+  .mob_height{
+    height: auto!important;
+  }
 
   .s_b_c{
     background-color: white !important;
@@ -124,6 +145,7 @@
 .carousel-inner {
 
   height: 294px!important;
+  margin-top: 250px;
 }
 
 .carosal_height_img{
@@ -197,6 +219,17 @@
 }
 
 @media (max-width: 769px){
+  .cuss_height{
+      height: 304px;
+  }
+
+  .cuss_height2{
+    height: 304px !important;
+}
+
+.cuss_height3{
+  height: 304px !important;
+}
   .card-deck .card {
     margin-bottom: 15px!important;
 }
@@ -249,10 +282,16 @@ display: none;
 .known-mb-center{
 	margin:auto !important;
 }
+p{
+font-family: 'Product Sans Regular';
+}
+.item_body_font{
+  font-family: 'Product Sans Regular' !important;
+}
 .jumbo_font {
     font-style: normal;
     font-weight: 500;
-    font-size: 27px !important;
+    font-size: 26px !important;
     line-height: 40px !important;
     text-align: center;
     padding: 40px 0 !important;
@@ -285,6 +324,7 @@ display: none;
     max-width: 100% !important;
     flex: 100%;
 	margin:0 15px;
+  font-family: 'Product Sans Regular';
 }
 }
 
@@ -384,6 +424,7 @@ display: none;
 } */
 
 .headings{
+  font-family: 'Product Sans Regular';
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -394,9 +435,10 @@ display: none;
 }
 
 .jumbo_font{
-  font-style: normal;
+font-family: 'Product Sans Regular';
+font-style: normal;
 font-weight: 500;
-font-size: 48px;
+font-size: 40px;
 line-height: 61px;
 text-align: center;
 }
@@ -567,6 +609,9 @@ text-align: center;
 .head_link{
 color:black;
 margin-left:12px;
+font-family: 'Product Sans Regular';
+font-style: normal;
+font-weight: normal;
 }
 a:hover {
   text-decoration: none;

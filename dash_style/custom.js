@@ -95,11 +95,11 @@
       var SalesChart = new Chart(SalesChartCanvas, {
         type: 'bar',
         data: {
-          labels: ["Apr", "May", "June", "July", "Aug"],
+          labels: ["May", "June", "July", "Aug", "Sep"],
           datasets: [
             {
-              label: 'Online Sales',
-              data: [400, 340, 550, 480, 170],
+              label: 'Active Users',
+              data: [0, 4, 21, 0, 0],
               backgroundColor: 'rgba(255, 53, 91, 1)'
             }
           ]

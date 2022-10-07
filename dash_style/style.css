@@ -12146,13 +12146,13 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
 }
 
-.custom-file {
+/* .custom-file {
   position: relative;
   display: inline-block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   margin-bottom: 0;
-}
+} */
 
 .custom-file-input {
   position: relative;
@@ -14464,7 +14464,7 @@ a.close.disabled {
   position: relative;
   overflow: hidden;
   display: inline-block;
-  float:left;
+  /* float:left; */
   width:100%;
     background:url(../images/plus-icon.png) no-repeat;
 }
@@ -20368,11 +20368,11 @@ dl li {
   font-size: 0.875rem;
 }
 
-.table td img {
+/* .table td img {
   width: 36px;
   height: 36px;
   border-radius: 100%;
-}
+} */
 
 .table td .badge {
   margin-bottom: 0;
@@ -21189,18 +21189,6 @@ dl li {
     margin-left: 0;
     margin-right: auto;
   }
-  
-  
-  
-/*form css*/
-.upload-btn-wrapper {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  float:left;
-  width:100%;
-    background:url(../images/plus-icon.png) no-repeat;
-}
 
 .btn-n-1 {
   border: 2px solid #ccc;
@@ -21212,14 +21200,7 @@ dl li {
   font-weight: bold !important;
 }
 
-.upload-btn-wrapper input[type=file] {
-  font-size: 200px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
 
-}
 .dashboardform1{
 	padding:15px;
 }
@@ -21311,6 +21292,12 @@ select.form-control1 {
 @media (max-width: 480px) {
   .navbar .navbar-brand-wrapper {
     width: 55px;
+  }
+  .cuss_display{
+    display: none;
+  }
+  .cuss-wide{
+    margin-right: 5px !important;
   }
   .navbar .navbar-brand-wrapper .brand-logo-mini {
     padding-top: 0px;

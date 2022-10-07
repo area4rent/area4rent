@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Product Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Regular'), url('./ProductSans-Regular.woff') format('woff');
+}
+
 .sv-btn{
   float:left;
   width:100%;
@@ -366,7 +373,7 @@ font-weight: bold;
 
 
 .cus_sel_wrap{ border: 1px solid gainsboro;
-  height: 60px;
+  height: 45px;
   max-width: 1700px;
   width: 100%;
   padding: 10px;
